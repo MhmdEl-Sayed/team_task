@@ -1,0 +1,37 @@
+.name{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+margin-top: 15px;
+    width: 400px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.icon{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+.cart-badge{
+    text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+
+
+.menu__button{
+    width: 50px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}

@@ -1,0 +1,78 @@
+.name{
+    font-size: 13px;
+    padding-top: 20px;
+}
+.m{
+    padding-left: 30px;
+}
+th{
+    font-weight: 900;
+    font-size: 17px;
+}
+td{
+    padding: 0 15px 0 15px;
+}
+.table{
+    margin-top: 40px;
+}
+.total_price{
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.p_m{
+   margin-left: 10px;
+}
+
+
+.delete-btnn  {
+    --color: #560bad;
+    font-family: inherit;
+    display: inline-block;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 20px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color 0.5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--color);
+  }
+  
+  .delete-btnn:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+ .delete-btnn:hover {
+    color: #fff;
+  }
+  
+  .delete-btnn:before {
+    top: 100%;
+    left: 100%;
+    transition: all 0.7s;
+  }
+  
+  .delete-btnn:hover:before {
+    top: -30px;
+    left: -30px;
+  }
+  
+  .delete-btnn:active:before {
+    background: #3a0ca3;
+    transition: background 0s;
+  }
+  
