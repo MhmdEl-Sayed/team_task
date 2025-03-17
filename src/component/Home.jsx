@@ -1,11 +1,12 @@
 import React from 'react';
 import products from "../products.json";
-import Pdetails from './pdetails';
+
 import { FaShoppingCart } from 'react-icons/fa';
 import "../index.css"
 import "../index.css"
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+import Productdetails from './Productdetails';
 const Home = () => {
   const total_Quantity = useSelector((state) => state.cart.total_Quantity);
   return (
@@ -22,7 +23,7 @@ const Home = () => {
     {products.map((item, index) => (
   
 <div className='name'>
-<Pdetails item={item} />
+<Productdetails item={item} />
 </div>
 
 ))}

@@ -2,10 +2,9 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { addtocart } from "./redux/createSlice";
 import { toast } from "react-toastify";
-import { Container, Row, Col } from "reactstrap";
-import "./p.css"; // رابط ملف CSS اللي هنعمله تحت
+import "./p.css"; 
 
-const Pdetails = ({ item }) => {
+const Productdetails = ({ item }) => {
   const dispatch = useDispatch();
 
   const addToCartHandler = () => {
@@ -41,4 +40,4 @@ const Pdetails = ({ item }) => {
   );
 };
 
-export default Pdetails;
+export default Productdetails;
